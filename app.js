@@ -8,7 +8,7 @@ if (args.length == 0) {
   process.exit(1);
 }
 
-amqp.connect('amqp://localhost', function(error0, connection) {
+amqp.connect('amqp://proyecto:1234@54.144.225.71', function(error0, connection) {
   if (error0) {
     throw error0;
   }
